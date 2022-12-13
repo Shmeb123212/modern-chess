@@ -34,6 +34,7 @@
 .cell img {
     width: 48px;
     height: 48px;
+    pointer-events: none;
 }
 
 
@@ -44,4 +45,22 @@
 
 .white {
     background-color: rgb(116, 116, 116);
+}
+
+.selected {
+    background-color: #BCBCBC;
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #22c022; 
+}
+
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: lightgray;
 }
